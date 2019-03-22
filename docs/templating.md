@@ -1837,6 +1837,24 @@ Count and output the number of words in a string:
 2
 ```
 
+
+### in
+
+`in` lets you test if the right operand is contained in the left one.
+
+**Input**
+
+```
+{{ 1 in [1, 2, 3] }}
+```
+
+**Output**
+
+```
+true
+```
+
+
 Alternatively, it's easy to [read the JavaScript
 code](https://github.com/mozilla/nunjucks/blob/master/nunjucks/src/filters.js)
 that implements these filters.
