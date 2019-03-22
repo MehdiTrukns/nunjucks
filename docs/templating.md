@@ -1840,7 +1840,7 @@ Count and output the number of words in a string:
 
 ### in
 
-`in` lets you test if the right operand is contained in the left one.
+To test if the left operand is contained in the right one.
 
 **Input**
 
